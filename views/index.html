@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joon Kwon">
+    <meta name="description" content="The website.">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <title>Joon Kwon</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Joon Kwon</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a id ="fun" href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="greeting"></h2>
+        <img src="../static/joon headshot 2.jpg" alt="Joon Kwon Profile Picture" class="profile-picture">
+        <div class="classA">
+            <span id="shortIntro">My name is Joon Kwon, and I am a freshman at Carnegie Mellon University
+                studying Business Administration with an intended additional major in</span>
+            <span id="readMore"> read more ...</span>
+            <span id="longIntro">Stat/Econ and an intended minor in Software Engineering.
+                I will be a product management intern at Flock Safety this summer. </span>
+            <span id="readLess"> read less</span>
+        </div>
+        <!-- <div class="classA">
+            <p id="Intro">My name is Joon Kwon, and I am a freshman at Carnegie Mellon University
+                studying Business Administration with an intended additional major in Stat/Econ
+                and an intended minor in Software Engineering. I will be a product management intern
+                at Flock Safety this summer. </p>
+        </div> -->
+    </div>
+    <footer>
+        <p id="copyYear">Joon Kwon &copy</p>
+    </footer>
+</body>
+</html>
